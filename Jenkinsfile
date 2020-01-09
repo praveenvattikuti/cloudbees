@@ -18,7 +18,7 @@ pipeline {
         def file = files[k]
         //echo "${file.editType.name} ${file.path}"
         echo  "${file.path}"
-        println(currentBuild.changeSets)
+        echo "${file}"
            }
         }
      }
