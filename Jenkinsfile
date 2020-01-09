@@ -22,7 +22,6 @@ pipeline {
         }
      }
 */
-@ nonCPS
 def getChangeString() {
     MAX_MSG_LEN = 100
     def changeString = ""
