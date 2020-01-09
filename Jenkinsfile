@@ -18,7 +18,11 @@ pipeline {
         def file = files[k]
         //echo "${file.editType.name} ${file.path}"
         echo  "${file.path}"
-        //echo "${file}"
+        //def change = file.path
+//if (change == 'cloud/*') {
+  //        sh 'cat cloud/cloud.txt'
+  //} else
+    //    }
            }
         }
      }
