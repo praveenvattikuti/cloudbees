@@ -1,3 +1,4 @@
+/*
 pipeline {
     agent any
     stages {
@@ -8,6 +9,7 @@ pipeline {
         }
     }
 }
+*/
 def changeLogSets = currentBuild.changeSets
 for (int i = 0; i < changeLogSets.size(); i++) {
     def entries = changeLogSets[i].items
@@ -19,7 +21,7 @@ for (int i = 0; i < changeLogSets.size(); i++) {
             def file = files[k]
         //def change = ${file.path}
         //echo "${file.editType.name} ${file.path}"
-        echo "${file.path}"
+        echo  "${file.path}"
         }
     }
 }
