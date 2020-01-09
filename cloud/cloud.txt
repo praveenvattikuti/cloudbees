@@ -5,4 +5,3 @@ IBM Cloud Services.
 Adobe Creative Cloud.
 Kamatera.
 VMware.
-Rackspace.
